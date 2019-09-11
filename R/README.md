@@ -3,7 +3,7 @@
 ## Prerequisites
 
 * Git client
-* R Studio (on a Mac, if you have [Homebrew](https://brew.sh) installed you can do `brew bundle install --file=Brewfile`)
+* [R Studio](https://www.rstudio.com/products/rstudio/download/#download) (on a Mac, if you have [Homebrew](https://brew.sh) installed you can do `brew bundle install --file=Brewfile`)
 
 Setup instructions:
 
