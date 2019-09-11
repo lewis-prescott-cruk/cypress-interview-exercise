@@ -24,7 +24,7 @@ library(shinytest)
 shinytest::installDependencies()
 ```
 
-## The exercise
+## Interview procedure
 
 ### Introduction
 
@@ -41,7 +41,7 @@ shinytest::installDependencies()
 
 * Show how to run unit tests _TBD_
 
-## The exercise
+### The exercise
 
 _TBD_
 
@@ -50,7 +50,7 @@ _TBD_
 * Fix the problem
 * See that the test passes
 
-## Wrap-up
+### Wrap-up
 
 * check their work in to the branch `git add . && git commit -m "exercise finished"`
 * push the branch to upstream `git push`
