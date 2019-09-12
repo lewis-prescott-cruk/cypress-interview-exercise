@@ -1,7 +1,5 @@
 # Python exercise
 
-_TBD_
-
 ## Prequisites
 
 * make sure you have Python 3 and that you're using it. If in doubt, install a virtual environment locally like this:
