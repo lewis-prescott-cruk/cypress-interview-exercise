@@ -28,17 +28,8 @@ def palindrome(s):
 def longestPalindrome(s):
     '''
     Returns the length of the longest palindrome within a string.
-
-    >>> longestPalindrome("aa")
-    2
-
-    >>> longestPalindrome("aaaaaaba")
-    3
-
-    >>> longestPalindrome("banananas")
-    7
     '''
-    return 1
+    return 0
 
 
 if __name__ == "__main__":

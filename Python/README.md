@@ -20,14 +20,15 @@ Do this ahead of the interview, in case it doesn't go 100% smoothly!
   * `pyenv local 3.7.4` — this should be the latest stable version of Python 3; see prerequisites above
   * `pipenv sync` — this will install any extra Python modules required into your virtualenv
 * Make a new branch for the interviewee to work in: `git checkout -b <Workday Candidate ID>`
-* Check that the tests pass cleanly by running them:
+* Check that the unit tests pass cleanly by running them:
 
 ``` shellsession
 ➭ make
-python3 -m unittest discover -s tests/
-..
+pipenv run python3 -m unittest discover --verbose --start-directory tests/
+test_palindrome (test_palindrome.Test) ... ok
+
 ----------------------------------------------------------------------
-Ran 2 tests in 0.000s
+Ran 1 test in 0.000s
 
 OK
 ```
@@ -38,13 +39,14 @@ OK
 
 > We're going to solve a problem together; we would like a bit of Python to
 detect palindromic strings, ones that read the same forwards as backwards. If we
-have time, we'll write a method to find the longest palindrome substring."
+have time, we'll carry on and write a method to find the length of the longest
+palindrome substring. We've got a little skeleton with some tests; let's have a
+look."
 
 * show the source code; `examples/__init__.py`
-* run the tests
-  * inline doctests: `python3 exercise/__init__.py`
-  * tests in the tests/ directory: `python3 -m unittest discover -s tests/`
-* hand over the keyboard: "GO!"
+* run the tests: `make`
+
+* Hand over the keyboard: "GO!"
 
 ### The exercise
 
