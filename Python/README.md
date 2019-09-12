@@ -36,12 +36,20 @@ OK
 
 ### Introduction
 
-* show the source code
+> We're going to solve a problem together; we would like a bit of Python to
+detect palindromic strings, ones that read the same forwards as backwards. If we
+have time, we'll write a method to find the longest palindrome substring."
+
+* show the source code; `examples/__init__.py`
 * run the tests
+  * inline doctests: `python3 exercise/__init__.py`
+  * tests in the tests/ directory: `python3 -m unittest discover -s tests/`
+* hand over the keyboard: "GO!"
 
 ### The exercise
 
-_TBD_
+* write a palindrome() method
+* write a longestPalindrome() method
 
 ### Wrap-up
 
