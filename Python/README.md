@@ -10,6 +10,7 @@ _TBD_
   * `pyenv install 3.7.4` (you can check that this is still the latest stable version  with `pyenv install --list`)
 * `make`(1)
 * install `pipenv` (the Brewfile will do this on a Mac)
+* make sure you have a sensible Python editor; VS Code recommended, or PyCharm if you have a license for it
 
 ## Setup
 
@@ -20,6 +21,7 @@ Do this ahead of the interview, in case it doesn't go 100% smoothly!
   * `pyenv local 3.7.4` — this should be the latest stable version of Python 3; see prerequisites above
   * `pipenv sync` — this will install any extra Python modules required into your virtualenv
 * Make a new branch for the interviewee to work in: `git checkout -b <Workday Candidate ID>`
+* Open `example/__init__.py` in the editor
 * Check that the unit tests pass cleanly by running them:
 
 ``` shellsession
@@ -43,10 +45,11 @@ have time, we'll carry on and write a method to find the length of the longest
 palindrome substring. We've got a little skeleton with some tests; let's have a
 look."
 
+* open the editor
 * show the source code; `examples/__init__.py`
 * run the tests: `make`
 
-* Hand over the keyboard: "GO!"
+* Hand them the keyboard: "GO!"
 
 ### The exercise
 

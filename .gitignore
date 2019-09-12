@@ -3,12 +3,20 @@
 \#*\#
 .\#*
 
+
 # R cruft
 .Rproj.user
 .Rhistory
 .RData
 
+R/shiny/tests/*-current/
+
+
 # Python grot
 .python-version
 __pycache__/
 *.pyc
+
+
+# VS Code
+.vscode/

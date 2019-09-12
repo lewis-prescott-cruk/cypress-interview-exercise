@@ -1,7 +1,7 @@
 def palindrome(s):
     '''
-    Return True for a palindromic string, ie one that reads the same backwards
-    as forwards, and False for all other strings.
+    Return True for a palindromic string s, ie one that reads the same
+    backwards as forwards, and False for all other strings.
 
     >>> palindrome("a")
     True
@@ -25,11 +25,21 @@ def palindrome(s):
     return True
 
 
-def longestPalindrome(s):
-    '''
-    Returns the length of the longest palindrome within a string.
-    '''
-    return 0
+# def longestPalindrome(s):
+#     '''
+#     Returns the length of the longest palindrome within a string.
+#
+#     >>> longestPalindrome("a")
+#     1
+#
+#     >>> longestPalindrome("zabbadoo")
+#     4
+#
+#     >>> longestPalindrome("bananas")
+#     5
+#
+#     '''
+#     return 0
 
 
 if __name__ == "__main__":
