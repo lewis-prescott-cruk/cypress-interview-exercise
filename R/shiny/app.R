@@ -2,6 +2,10 @@
 # This is a Shiny web application. You can run the application by clicking
 # the 'Run App' button above.
 #
+# To run the Shiny tests from the console:
+# > library("shinytest")
+# > testApp("shiny")
+#
 # Find out more about building applications with Shiny here:
 #
 #    http://shiny.rstudio.com/
