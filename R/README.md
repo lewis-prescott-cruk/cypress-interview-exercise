@@ -26,7 +26,7 @@ shinytest::installDependencies()
 
 ## Interview procedure
 
-### Introduction
+### Find and fix a problem in a shiny app
 
 * Ask the interviewee to run the app:
   * find and open `shiny/app.R`
@@ -39,16 +39,16 @@ shinytest::installDependencies()
     testApp("shiny")`
 ```
 
-* Show how to run unit tests _TBD_
-
-### The exercise
-
-_TBD_
-
-* Find something broken in the app
-* Write a test to set expectations
-* Fix the problem
+* Demonstrate that the app is broken
+* Ask the interviewee: please fix the problem
 * See that the test passes
+
+### Write a Fibonacci sequence function
+
+There is a stub in `fib.R`, with some in-line testing.
+
+* Run the script to show the failing test.
+* Ask the interviewee to implement `fib()`
 
 ### Wrap-up
 
