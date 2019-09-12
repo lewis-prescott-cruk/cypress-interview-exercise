@@ -25,9 +25,9 @@ def palindrome(s):
     return True
 
 
-# def longestPalindrome(s):
-#     '''
-#     Returns the length of the longest palindrome within a string.
+def longestPalindrome(s):
+    '''
+    Returns the length of the longest palindrome within a string s.
 #
 #     >>> longestPalindrome("a")
 #     1
@@ -38,8 +38,8 @@ def palindrome(s):
 #     >>> longestPalindrome("bananas")
 #     5
 #
-#     '''
-#     return 0
+    '''
+    return 0
 
 
 if __name__ == "__main__":

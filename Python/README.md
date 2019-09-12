@@ -46,7 +46,7 @@ palindrome substring. We've got a little skeleton with some tests; let's have a
 look."
 
 * open the editor
-* show the source code; `examples/__init__.py`
+* show the source code; `exercise/__init__.py`
 * run the tests: `make`
 
 * Hand them the keyboard: "GO!"
@@ -55,9 +55,11 @@ look."
 
 * write a palindrome() method
 * write a longestPalindrome() method
+  * uncomment the stub and associated doctests in the exercise module to begin
+  * remove the skip annotation from the unit tests in `test/`
 
 ### Wrap-up
 
-* check their work in to the branch `git add . && git commit -m "exercise finished"`
+* check their work in to the branch `git commit -m "exercise finished" .`
 * push the branch to upstream `git push`
 * you might like to `make lint` to see what flake8 thinks
