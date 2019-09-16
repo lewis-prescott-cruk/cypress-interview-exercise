@@ -1,6 +1,6 @@
 # return the nth element of the Fibonacci sequence
 fib <- function(n) {
-  return(as.integer(n))
+  return(n)
 }
 
 # Unit tests
