@@ -13,7 +13,7 @@ Here are some interview exercises.
 
 As you conduct the exercise, remember that you are trying to give them a controlled, safe environment where they can demonstrate their skills. Interviews should not be a ritual hazing. You are solving a problem together.
 
-If they ask, I'd personally be happy to let them use online resources to help—but not impressed by them just "searching for the answer" and paste that in!
+If they ask, I'd personally be happy to let them use online resources to help—but not impressed by them just "searching for the answer" and pasting that in!
 
 ## Get ready before you start
 
