@@ -21,3 +21,14 @@ If they ask, I'd personally be happy to let them use online resources to help—
 * Disable alerts, notifications and whatnot on your laptop
 * Close all apps but the code editor, and perhaps a terminal
 * [Visual Studio Code](https://code.visualstudio.com/download) is probably a good choice of editor; on a Mac with [Homebrew](https://brew.sh) `brew install visual-studio-code`
+
+### How to do remote pairing with VS Code
+
+* `⌘⇧P` Live Share: Start Collaboration Session (Share)
+* copy the link to your clipboard
+* Open folder… / `/interview-exercises/`
+* `⌘⇧P` Git: Create branch… / `YYYY-MM-DD-name`
+ Make sure you're branching off master.
+* Open this `README.md` in VS Code
+* Start a terminal `⌃⇧`` to help run the tests (you'll need to grant the candidate permission to use this)
+* Do the exercise!
