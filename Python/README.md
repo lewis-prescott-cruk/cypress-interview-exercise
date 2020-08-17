@@ -13,7 +13,7 @@ Do this ahead of the interview, in case it doesn't go 100% smoothly!
 * Clone the repo: `git clone https://github.com/CRUKorg/interview-exercises.git`
 * Make a new branch for the interviewee to work in: `git checkout -b <Workday Candidate ID>`
 * Open `example/__init__.py` in the editor
-* Check that the unit tests pass cleanly by running them:
+* Check that the tests pass cleanly by running them:
 
 ``` shellsession
 ➭ make test
@@ -34,17 +34,27 @@ A great deal of cancer research is carried out without using animals but in cert
 
 Cancer Research UK operates a strict Non Smoking policy – would you have any issues adhering to this?
 
-Do you have any restrictions on your right to work in the UK?
+### Prerequisites
+
+* the candidate will need a GitHub account (VS Code Live Share might work with a Microsoft account, but this is untested)
+* they can use the fat VS Code app, or the web client
 
 ### Introduction
 
-> We're going to solve a problem together; we would like a bit of Python to generate the Fibonnaci sequence. We've got a little skeleton with some tests; let's have a look."
+> We're going to solve a problem together; we would like a bit of Python to generate the Fibonacci sequence. We've got a little skeleton with some tests; let's get an editor going and have a look."
 
 * open the editor
 * show the source code; `exercise/__init__.py`
+* start live share
+  * ⌘⇧P / live share: start collaboration session
+  * sign in with Microsoft
+  * paste the invite (a `visualstudio.com` URL) into whatever chat you have going with the candidate
+  https://prod.liveshare.vsengsaas.visualstudio.com/join?DF6041E8734FBC909D034CE2DD1411A10FC2
+  * get them to do Hamburger / View / Terminal
+* remember there is the audio option—use the menu on the 🎖 status bar at the bottom of the editor window
 * run the tests: `make`
 
-* Hand them the keyboard: "GO!"
+* Hand them the (virtual) keyboard: "GO!"
 
 ### The exercise
 
