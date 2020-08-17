@@ -5,13 +5,14 @@ default:
 	@echo "	unit	run unit tests in tests/"
 
 test:
+	@echo "Running all tests:"
 	$(MAKE) unit doctest
 
 unit:
-	python3 -m unittest discover --verbose --start-directory tests/
+	- python3 -m unittest discover --verbose --start-directory tests/
 
 doctest:
-	python3 exercise/__init__.py
+	- python3 exercise/__init__.py
 
 lint:
 	flake8

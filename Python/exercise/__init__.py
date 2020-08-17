@@ -1,45 +1,20 @@
-def palindrome(s):
+def fibonacci(n):
     '''
-    Return True for a palindromic string s, ie one that reads the same
-    backwards as forwards, and False for all other strings.
+Return the nth number in the Fibonnaci sequence. The Fibonacci sequence
+begins as follows:
 
-    >>> palindrome("a")
-    True
+    1, 1, 2, 3, 5, 8, 13, 21, ...
+    0  1  2  3  4  5  6   7       ← 0-indexed sequence
 
-    >>> palindrome("ab")
-    False
+where we start with the numbers 1, 1 and then get the next number in the
+sequence by adding the two previous numbers together. For example, the next
+number in our example after 21 would be 13 + 21 = 34.
 
-    >>> palindrome("abba")
-    True
-
-    >>> palindrome("aba")
-    True
-
-    >>> palindrome(str.lower("Able was I ere I saw Elba").replace(" ", ""))
-    True
-
-    >>> palindrome("bananas")
-    False
-
+    >>> fibonacci(5)
+    8
     '''
-    return True
 
-
-def longestPalindrome(s):
-    '''
-    Returns the length of the longest palindrome within a string s.
-#
-#     >>> longestPalindrome("a")
-#     1
-#
-#     >>> longestPalindrome("zabbadoo")
-#     4
-#
-#     >>> longestPalindrome("bananas")
-#     5
-#
-    '''
-    return 0
+    return n
 
 
 if __name__ == "__main__":

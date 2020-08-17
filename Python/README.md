@@ -38,11 +38,7 @@ Do you have any restrictions on your right to work in the UK?
 
 ### Introduction
 
-> We're going to solve a problem together; we would like a bit of Python to
-detect palindromic strings, ones that read the same forwards as backwards. If we
-have time, we'll carry on and write a method to find the length of the longest
-palindrome substring. We've got a little skeleton with some tests; let's have a
-look."
+> We're going to solve a problem together; we would like a bit of Python to generate the Fibonnaci sequence. We've got a little skeleton with some tests; let's have a look."
 
 * open the editor
 * show the source code; `exercise/__init__.py`
@@ -52,10 +48,9 @@ look."
 
 ### The exercise
 
-* write a palindrome() method
-* write a longestPalindrome() method
-  * uncomment the stub and associated doctests in the exercise module to begin
-  * remove the skip annotation from the unit tests in `test/`
+* write a fibonacci() method; our requirements are:
+  * When we pass the function some number n we expect it to return the number that is in position n in the sequence, with the zeroth number being 1.
+  * Our function should raise a ValueError if we pass in a number less than 0 because it makes no sense to have anything before the zeroth position in the sequence.
 
 ### Wrap-up
 
