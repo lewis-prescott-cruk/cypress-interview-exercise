@@ -8,10 +8,10 @@ test:
 	$(MAKE) unit doctest
 
 unit:
-	pipenv run python3 -m unittest discover --verbose --start-directory tests/
+	python3 -m unittest discover --verbose --start-directory tests/
 
 doctest:
-	pipenv run python3 exercise/__init__.py
+	python3 exercise/__init__.py
 
 lint:
-	pipenv run flake8
+	flake8

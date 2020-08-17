@@ -1,5 +1,3 @@
 # -*- ruby -*-
 
-brew "pipenv"
-brew "pyenv"
 cask "visual-studio-code"
