@@ -28,6 +28,14 @@ OK
 
 ## Interview procedure
 
+### Standard mandatory questions
+
+A great deal of cancer research is carried out without using animals but in certain areas it’s still necessary if we are to understand, prevent and cure cancer. CRUK only uses animals when there is no alternative. Does this cause you any problems?
+
+Cancer Research UK operates a strict Non Smoking policy – would you have any issues adhering to this?
+
+Do you have any restrictions on your right to work in the UK?
+
 ### Introduction
 
 > We're going to solve a problem together; we would like a bit of Python to
