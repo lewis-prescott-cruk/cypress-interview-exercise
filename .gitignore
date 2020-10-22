@@ -21,3 +21,6 @@ __pycache__/
 # VS Code
 .vscode/
 Brewfile.lock.json
+
+# TypeScript node
+node_modules
