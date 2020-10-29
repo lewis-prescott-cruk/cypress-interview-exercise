@@ -1,24 +1,19 @@
-## Lambda Tests
-Exercise to test AWS Lambda's with Jest & Sinon
+# Lambda tests
 
+Exercise to test AWS Lambdas with Jest & Sinon
 
-### Steps to Complete
+## Steps to complete
 
-
-1. Fix failing Test
+1. Fix failing test
 1. Add code for test which is currently skipped
 
-
 ## Setup
-
 
 ```sh
 yarn
 ```
 
-
-## Run Tests
-
+## Run tests
 
 ```sh
 yarn test
