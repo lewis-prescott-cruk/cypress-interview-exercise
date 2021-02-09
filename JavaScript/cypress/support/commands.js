@@ -30,5 +30,5 @@ Cypress.Commands.add("acceptCookies", () => {
 
 Cypress.Commands.add("stubSearchResults", (city) => {
     cy.intercept(`/get-involved/find-a-shop?field_shop_geocode_latlon=${city}&items_per_page=10`, 
-    { fixture: 'results.html' })
+    { fixture: 'tbody.html' })
 })
