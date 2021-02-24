@@ -1,34 +1,44 @@
-# Interview exercises
+# UI Tests
 
-Here are some interview exercises.
+Your task is to create automated checks for the search function for the CRUK find a shop page ([https://www.cancerresearchuk.org/get-involved/find-a-shop](https://www.cancerresearchuk.org/get-involved/find-a-shop)).
 
-## How to use
+## Scenarios
 
-* Keep the `master` branch clean.
-* Make a new branch for each interviewee; use their Workday candidate ID, not their name.
-* Let them manage their branch as they like…
-* …but make sure there's at least one commit, at the end of their interview!
+You need to test the following scenarios (this is a live website, please don't overuse the page/functionality):
 
-## Set the tone
+1. create a "happy path" scenario.
+1. create a negative scenario.
 
-As you conduct the exercise, remember that you are trying to give them a controlled, safe environment where they can demonstrate their skills. Interviews should not be a ritual hazing. You are solving a problem together.
+## Guidance
 
-If they ask, I'd personally be happy to let them use online resources to help—but not impressed by them just "searching for the answer" and pasting that in!
+If you prefer to use a different test framework (feel free to add it as a dependency, we use Cypress.io at CRUK) to solve the challenge. Use best practices for the test architecture and setup.
 
-## Get ready before you start
+### Setup
+Please upgrade the Cypress version if you want/need features
+```sh
+npm install
+```
 
-* Make sure the prerequisites are satisfied before you begin
-* Disable alerts, notifications and whatnot on your laptop
-* Close all apps but the code editor, and perhaps a terminal
-* [Visual Studio Code](https://code.visualstudio.com/download) is probably a good choice of editor; on a Mac with [Homebrew](https://brew.sh) `brew install visual-studio-code`
+### Run
+Launch Cypress GUI
+```sh
+npm run cypress:open
+```
+or headless
+```sh
+npm test
+```
 
-### How to do remote pairing with VS Code
+## Documentation
 
-* `⌘⇧P` Live Share: Start Collaboration Session (Share)
-* copy the link to your clipboard
-* Open folder… / `/interview-exercises/`
-* `⌘⇧P` Git: Create branch… / `YYYY-MM-DD-name`
- Make sure you're branching off master.
-* Open this `README.md` in VS Code
-* Start a terminal `⌃⇧`` to help run the tests (you'll need to grant the candidate permission to use this)
-* Do the exercise!
+Please describe in a README.md file how to run the tests and any other additional info needed about any assumptions you make.
+
+## Helpful links
+[Cypress Docs](https://docs.cypress.io/guides/getting-started/writing-your-first-test.html)  
+[Cypress Tutorial](https://testautomationu.applitools.com/cypress-tutorial/)
+
+## On Completion
+
+Please either:
+1. Zip up the project and send it back to the hiring manager
+1. Publish to your github and send us the link
