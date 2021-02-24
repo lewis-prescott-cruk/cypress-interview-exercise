@@ -1,0 +1,16 @@
+{
+  "name": "cypress-qa-engineer",
+  "version": "1.0.0",
+  "description": "technical test for qa engineers CRUK",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "npm run cypress:run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "6.4.0"
+  }
+}
